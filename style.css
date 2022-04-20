@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+
+navbar {
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	width: 100%;
+	background-color: transparent;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+container {
+	display: flex;
+	align-items: center;
+	width: 1400px;
+	margin-left: 50px;
+	gap: 20px;
+}
+
+img {
+	height: 26px;
+}
+
+menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	gap: 30px;
+}
+
+menu a {
+	color: white;
+	font-family: "Barlow";
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+menu a:after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 0%;
+	margin-top: 2px;
+	background-color: #fff;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+menu a:hover::after {
+	opacity: 1;
+	width: 100%;
+}
+
+aside {
+	position: absolute;
+	right: 50px;
+	color: white;
+
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+aside a {
+	color: white;
+	font-family: "Barlow";
+	font-weight: bolder;
+}
+
+aside i {
+	font-size: 25px;
+	cursor: pointer;
+}
+
+section1 {
+	background-image: url("https://www.spacex.com/static/images/backgrounds-2022/ax-1/post-launch/Homepage_Axiom_1_Docking_DESKTOP.webp");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+wrapper {
+	width: 100%;
+	max-width: 1400px;
+	height: 100%;
+	position: relative;
+}
+
+section1 textGroup {
+	position: absolute;
+	left: 50px;
+	bottom: 15%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+section1 textGroup h4 {
+	font-size: 20px;
+	font-family: "Barlow";
+	color: white;
+	font-weight: lighter;
+}
+
+section1 textGroup h2 {
+	font-size: 48px;
+	font-family: "Passion One";
+	color: white;
+	font-weight: lighter;
+}
+
+section1 textGroup a {
+	margin-top: 30px;
+
+	font-family: "Barlow";
+	font-weight: bold;
+
+	width: min-content;
+	white-space: nowrap;
+
+	color: white;
+
+	padding: 18px 45px;
+	border: 2px solid white;
+	transition: 0.5s;
+}
+
+section1 textGroup a:hover {
+	background-color: #fff;
+	color: black;
+}
+
+section2 {
+	background-image: url("https://www.spacex.com/static/images/backgrounds-2022/transporter-4/post-launch/Transporter-4_homepage_desktop.webp");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+section2 wrapper {
+	width: 100%;
+	max-width: 1400px;
+	height: 100%;
+	position: relative;
+}
+
+section2 textGroup {
+	position: absolute;
+	left: 50px;
+	bottom: 15%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+section2 textGroup h4 {
+	font-size: 20px;
+	font-family: "Barlow";
+	color: white;
+	font-weight: lighter;
+}
+
+section2 textGroup h2 {
+	font-size: 48px;
+	font-family: "Passion One";
+	color: white;
+	font-weight: lighter;
+}
+
+section2 textGroup a {
+	margin-top: 30px;
+
+	font-family: "Barlow";
+	font-weight: bold;
+
+	width: min-content;
+	white-space: nowrap;
+
+	color: white;
+
+	padding: 18px 45px;
+	border: 2px solid white;
+	transition: 0.5s;
+}
+
+section2 textGroup a:hover {
+	background-color: #fff;
+	color: black;
+}
+
+section3 {
+	background-image: url("https://www.spacex.com/static/images/backgrounds-2022/sl4-12/post-launch/Starlink-4-12_desktop_homepage.webp");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+section3 wrapper {
+	width: 100%;
+	max-width: 1400px;
+	height: 100%;
+	position: relative;
+}
+
+section3 textGroup {
+	position: absolute;
+	left: 50px;
+	bottom: 15%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+section3 textGroup h4 {
+	font-size: 20px;
+	font-family: "Barlow";
+	color: white;
+	font-weight: lighter;
+}
+
+section3 textGroup h2 {
+	font-size: 48px;
+	font-family: "Passion One";
+	color: white;
+	font-weight: lighter;
+}
+
+section3 textGroup a {
+	margin-top: 30px;
+
+	font-family: "Barlow";
+	font-weight: bold;
+
+	width: min-content;
+	white-space: nowrap;
+
+	color: white;
+
+	padding: 18px 45px;
+	border: 2px solid white;
+	transition: 0.5s;
+}
+
+section3 textGroup a:hover {
+	background-color: #fff;
+	color: black;
+}
+
+section4 {
+	background-image: url("https://www.spacex.com/static/images/backgrounds-2022/starship-update/S20_Chopstick_Stack_Desktop.webp");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+section4 wrapper {
+	width: 100%;
+	max-width: 1400px;
+	height: 100%;
+	position: relative;
+}
+
+section4 textGroup {
+	position: absolute;
+	left: 50px;
+	bottom: 15%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+section4 textGroup h4 {
+	font-size: 20px;
+	font-family: "Barlow";
+	color: white;
+	font-weight: lighter;
+}
+
+section4 textGroup h2 {
+	font-size: 48px;
+	font-family: "Passion One";
+	color: white;
+	font-weight: lighter;
+}
+
+section4 textGroup a {
+	margin-top: 30px;
+
+	font-family: "Barlow";
+	font-weight: bold;
+
+	width: min-content;
+	white-space: nowrap;
+
+	color: white;
+
+	padding: 18px 45px;
+	border: 2px solid white;
+	transition: 0.5s;
+}
+
+section4 textGroup a:hover {
+	background-color: #fff;
+	color: black;
+}
+
+section5 {
+	background-image: url("https://www.spacex.com/static/images/backgrounds-2021/hls-resized-2.webp");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+section5 wrapper {
+	width: 100%;
+	max-width: 1400px;
+	height: 100%;
+	position: relative;
+}
+
+section5 textGroup {
+	position: absolute;
+	left: 50px;
+	bottom: 15%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+section5 textGroup h4 {
+	font-size: 20px;
+	font-family: "Barlow";
+	color: white;
+	font-weight: lighter;
+}
+
+section5 textGroup h2 {
+	font-size: 48px;
+	font-family: "Passion One";
+	color: white;
+	font-weight: lighter;
+}
+
+section5 textGroup a {
+	margin-top: 30px;
+
+	font-family: "Barlow";
+	font-weight: bold;
+
+	width: min-content;
+	white-space: nowrap;
+
+	color: white;
+
+	padding: 18px 45px;
+	border: 2px solid white;
+	transition: 0.5s;
+}
+
+section5 textGroup a:hover {
+	background-color: #fff;
+	color: black;
+}
+
+footer {
+	font-family: "Barlow";
+	padding: 20px;
+	background-color: #000;
+	color: #979797;
+}
+
+container2 {
+	display: flex;
+	margin: 20px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+
+	gap: 10px 50px;
+}
+
+links {
+	display: flex;
+	flex-direction: row;
+	gap: 10px 50px;
+
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+links a {
+	color: white;
+	transition: 0.5s;
+}
+
+links a:hover {
+	filter: brightness(0.5);
+}
+
+@media screen and (max-width: 1300px) {
+	menu {
+		opacity: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+
+	container {
+		justify-content: center;
+	}
+
+	aside a {
+		opacity: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+}
